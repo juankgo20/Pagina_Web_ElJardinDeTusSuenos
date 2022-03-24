@@ -1,0 +1,283 @@
+body {
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+
+#mainNav {
+    background-color: #F4E7EB;
+  }
+  #mainNav .navbar-brand {
+    font-weight: 700;
+    color: #212529;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: black;
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 0.75rem 0;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
+    color: #f4623a;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link.active {
+    color: #f4623a !important;
+  }
+
+
+.menu li a {
+    color: black;
+    padding: 0px 15px;
+    text-decoration: none;
+    text-align: center;
+    font-size: large;
+    border-radius: 20px;
+}
+
+ 
+
+.icons i {
+    color: #00BBDF;
+    padding-right: 8px;
+    margin: 0 auto;
+    display: table;
+    margin-bottom: 10px;
+    font-size: 25px;
+} 
+
+
+.slide {
+    margin-top: 11%;
+}
+
+
+footer{
+    text-align: center;
+    background-color:cornflowerblue;
+    padding: 10px;
+}
+
+footer .texto{
+    display: inline-block;
+    padding-right: 20px;
+}
+
+footer .icons{
+    display: inline-block;
+    
+}
+
+footer .icons a{
+    color:bisque;
+    padding-right: 8px;
+
+
+}
+
+
+.grupo {
+    padding: 3rem 0;
+}
+
+.container-flex {
+    align-items: flex-start;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: var(--backgroundColor);
+    padding: 10px;
+    margin: auto;
+}
+
+.columna {
+    text-align: center;
+    padding: 1rem 3rem;
+}
+
+
+.img-equipo {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.grande {
+    background-color: aquamarine;
+    height: 289px;
+    
+
+}
+
+.pequeña{
+    height: 74%;
+    background-color: lemonchiffon;
+}
+
+.banner-inferior {
+    margin-bottom: 40px;
+}
+
+.cajas {
+    padding: 5%;
+    margin-left: 10%;
+}
+
+.textcaja {
+    color:black; 
+    font-size: 16px;
+}
+
+.imagenbanner {
+    margin-left: 55%;
+    margin-top: -25%;
+    width: 37%;
+}
+
+.niveleseducativos {
+    margin-top: 0px;
+}
+
+.niveles {
+    text-align: center;
+    color: black;
+}
+
+.containerniveles {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: var(--backgroundColor);
+  
+}
+
+.columnas {
+    text-align: center;
+}
+
+.img-niveles:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    #mainNav {
+      box-shadow: none;
+      background-color: transparent;
+    }
+    #mainNav .navbar-brand {
+      color: black
+    }
+    #mainNav .navbar-brand:hover {
+      color: black;
+    }
+    #mainNav .navbar-nav .nav-item .nav-link {
+      color: black;
+      padding: 0 1rem;
+    }
+    #mainNav .navbar-nav .nav-item .nav-link:hover {
+      color: black;
+    }
+    #mainNav .navbar-nav .nav-item:last-child .nav-link {
+      padding-right: 0;
+    }
+    #mainNav.navbar-shrink {
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+      background-color: black;
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+      color: #212529;
+    }
+    #mainNav.navbar-shrink .navbar-brand:hover {
+      color: #f4623a;
+    }
+    #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
+      color: #212529;
+    }
+    #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
+      color: #f4623a;
+    }
+
+    .slide {
+        margin-top: 40%;
+        width: 116%;
+    }
+
+    .container-flex {
+        grid-template-columns: auto;
+    }
+
+    .titlebanner {
+        margin-left: -15%;
+    }
+
+    .textcaja {
+        margin-left: -15%;
+    }
+
+    .imagenbanner {
+        margin-left: 45%;
+        margin-top: -10%;
+        width: 45%;
+    }
+
+    .grande {
+        background-color: aquamarine;
+        width: 133%;
+        
+    
+    }
+    
+    .pequeña{
+        background-color: lemonchiffon;
+    }
+    
+    .banner-inferior {
+        margin-bottom: 40px;
+    }
+
+    .niveles {
+        margin-left: 20%;
+    }
+
+    .containerniveles {
+        grid-template-columns: auto;
+        margin-left: 20%;
+      
+    }
+
+    .icons i {
+        margin-bottom: -25px;
+        margin-left: 114%;
+    } 
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

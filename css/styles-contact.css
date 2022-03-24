@@ -1,0 +1,291 @@
+body {
+    margin: 0%;
+}
+
+.contact {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(/assets/image/unico.jpg);
+    background-size: cover;
+    margin-top: 11%;
+    
+}
+
+.contact .content {
+    max-width: 800px;
+    text-align: center;
+}
+
+/*Color iconos*/
+
+#color-map {
+    color: #C03A2B;
+    font-size: 30px;
+}
+#color-what {
+    color: #51CC5D;
+    font-size: 30px;
+}
+
+#color-mail {
+    color: #1C83F3;
+    font-size: 30px;
+}
+
+.contact .content {
+    font-size: 36px;
+    font-weight: 500;
+   
+}
+
+.contact .content {
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+#sub-jardin {
+    color: #E53D67;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container .contactInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .contactInfo .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+
+}
+
+.container .contactInfo .box .icon {
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 20px;
+
+}
+
+.container .contactInfo .box .text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #efefef;
+    flex-direction: column;
+    font-weight: 300;
+
+}
+
+.container .contactInfo .box .text {
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 20px;
+
+}
+
+h3 {
+    color: #FFE795;
+}
+
+.contactForm {
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.contactForm h2 {
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+    
+}
+
+.contactForm .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactForm .inputBox input, 
+.contactForm .inputBox textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.contactForm .inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin:  10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span {
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+
+}
+.contactForm.inputBox input[type="submit"] {
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+
+}
+
+/*Footer*/
+
+
+.pie-pagina {
+    width: 100%;
+    background-color: #E7E8EA;
+}
+
+.pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+
+}
+
+.fa-facebook {
+    color: #0B86EE;
+    font-size: 50px;
+}
+
+.fa-instagram {
+    color: #D3484F;
+    font-size: 50px;
+    
+}
+
+i:hover {
+    transform: translateY(-3px) scale(1.2);
+}
+
+.pie-pagina .grupo-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure .img-footer {
+    width: 270px;
+}
+
+.pie-pagina .grupo-1 .box h2 {
+    margin-bottom: 25px;
+    font-size: 20px;
+    color: #FB6803;
+}
+
+.pie-pagina .grupo-1 .box {
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+
+
+.pie-pagina .grupo-2 {
+    background: #33AC19;
+    padding: 15px 10px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
+.button {
+    border-radius: 50px;
+    background-color:lightblue;
+    cursor: pointer;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .contact
+    {
+        background-image: url(/assets/image/nivels.jpg);
+        padding: 50px;
+        margin-top: 35%;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .container .contactInfo {
+        margin-bottom: 40px;
+    }
+ 
+    .contactForm {
+        width: 136%;
+    }
+
+    .container .contactInfo .box {
+        margin-left: -104%; 
+        
+    }  
+    
+    .pie-pagina .grupo-1 {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px; 
+    } 
+}
+
